@@ -1,5 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(75, 75, 196);
+    background-color: white;
+}
+
+.hello {
+    background-color: blue;
+    font-size: 80px;
 }
