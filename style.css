@@ -65,6 +65,7 @@ p {
     padding: 0.5rem 1rem;
     background-color: hsl(225, 100%, 98%);
     border-radius: 20px;
+    
 }
 
 .order-btn {
@@ -115,15 +116,15 @@ p {
 }
 
 .payment-btn:hover {
-  background-color: #fff5e1;
-  color: #f55800;
-  border: 1px solid #f55800;
+  background-color: hsl(245, 55%, 51%);
+  color: hsl(245, 55%, 51%);
+  border: 1px solid hsl(245, 55%, 51%);
 }
 
 .payment-btn:active {
-  background-color: #e05304;
-  color: #f4f1f0;
-  border: 1px solid #f55800;
+  background-color: hsl(245, 89%, 51%);
+  color: hsl(245, 89%, 51%);
+  border: 1px solid hsl(245, 89%, 51%);
 }
 
 .payment-btn:disabled {
@@ -134,4 +135,11 @@ p {
 
 .price{
     opacity: 0.4;
+}
+
+.cancel-btn {
+    text-decoration: none;
+}
+.change-order{
+    text-decoration: none;
 }
