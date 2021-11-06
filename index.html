@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="hello">
-        Hello world
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Summary Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="background">
+        <img class="bg-desktop" src="pattern-background-desktop.svg" />
+        <img class="bg-mobile" src="pattern-background-mobile.svg" />
+      </div>
+      <div class="order-card">
+        <img
+          class="hero image"
+          src="illustration.svg"
+          alt="doodle listerning to musiccard-payment"
+        />
+        <div class="card-payment">
+          <h2 class="">Order Summary</h2>
+          <p class="decription">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="order-btn">
+            <div class="order-btn-main">
+              <img src="icon-music.svg" class="music-img" />
+              <div class="order-text">
+                <p id="annual-plan">Annual plan</p>
+                <p>$59.99/year</p>
+              </div>
+            </div>
+            <a href="#" class="change-order"> Change</a>
+          </div>
+          <button class="payment-btn" id="submit">
+            <a href="#">Proceed to Payment</a>
+          </button>
+          <a href="#" class="cancel-btn">Cancel Order</a>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
