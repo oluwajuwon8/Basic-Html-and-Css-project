@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order Summary Card</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="fonts.css">
-    <link rel="icon" href="./images/favicon-32x32.png">
-</head>
-<body>
-    <div class="bg_back"></div>
-    <section class="container">
-            <img  class="hero" src="./images/illustration-hero.svg" alt="">
-            <div>
-                <h1>Order Summary</h1>
-                <p class="desc">You can now listen to millions of songs, audiobooks, and podcasts on any 
-                    device anywhere you like!</p>
+    <link rel="stylesheet" href="style.css" />
+    <!-- google font starts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts end -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="background">
+        <!-- <img class="bg-desktop" src="./images/pattern-background-desktop.svg" />
+        <img class="bg-mobile" src="./images/pattern-background-mobile.svg" /> -->
+        <div class="order-card">
+          <img
+            class="hero-image"
+            src="./images/illustration-hero.svg"
+            alt="doodle listerning to musiccard-payment"
+          />
+          <div class="card-payment">
+            <h2 class="order-sum">Order Summary</h2>
+            <p class="decription">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+            <div class="order-btn">
+              <div class="order-btn-main">
+                <img src="./images/icon-music.svg" class="music-img" />
+              </div>
+              <div class="order-text">
+                <p id="annual-plan">Annual plan</p>
+                <p class="price">$59.99/year</p>
+              </div>
+              <a href="#" class="change-order"> Change</a>
             </div>
-            <div class="pricing">
-                
-                <article>
-                    <img src="./images/icon-music.svg" alt=""/>
-                    <div>
-                    <h4>Annual Plan</h4> 
-                    <p>$59.99/year</p>
-
-                    </div>
-                    
-                </article>
-                <button class="btn btn-change"> Change</button>
-
-               </div>
-            
-            <div class="buttons">
-                <button type="submit" class="btn btn-primary">Proceed to payment</button>
-                <button type="submit" class="btn btn-secondary">Cancel Order</button>
-            </div>
-    
-
-    </section>
-
-</body>
-</html> 
+            <button class="payment-btn">
+              <a href="#" class="payment-link">Proceed to Payment</a>
+            </button>
+            <a href="#" class="cancel-btn">Cancel Order</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
