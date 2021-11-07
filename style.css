@@ -104,10 +104,12 @@ p {
 }
 
 .payment-btn{
-    padding: 0.5rem 0;
+    padding: 0.7rem 0;
     border-radius: 10px;
     background-color:hsl(245, 75%, 52%) ;
     border: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
 }
 
 .payment-link{
@@ -116,9 +118,9 @@ p {
 }
 
 .payment-btn:hover {
-  background-color: hsl(245, 55%, 51%);
+  background-color: hsl(246, 41%, 57%);
   color: hsl(245, 55%, 51%);
-  border: 1px solid hsl(245, 55%, 51%);
+  border: 1px solid hsl(245, 52%, 60%);
 }
 
 .payment-btn:active {
@@ -139,7 +141,16 @@ p {
 
 .cancel-btn {
     text-decoration: none;
+    font-weight: bold;
+    color: #8f8b88;
 }
+.cancel-btn:hover {
+    color: black;
+
+} 
 .change-order{
+    text-decoration: underline;
+}
+.change-order:hover{
     text-decoration: none;
 }
