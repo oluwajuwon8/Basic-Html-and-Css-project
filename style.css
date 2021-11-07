@@ -176,7 +176,7 @@ p{
 
     .buttons .btn-primary{
         width: 35vh;
-        box-shadow: 40px 40px 40px rgba(66, 112, 250, 0.5);
+        box-shadow: 40px 40px 40px hsl(225, 61%, 76%,.4);
     }
 }
 
