@@ -157,23 +157,7 @@ p{
     align-items: center;
     justify-content: center;
 }
-
-
-
-
-@media(min-width:350px) and (max-width:1007px){
-	body{
-	     display:flex;
-	     align-items: center;
-	     justify-content:center;
-	     height:100vh;
-	}
-
-.bg_back{
-	     margin-left:35%;
-	     margin-right:35%;
-}
-}																																																																				
+																																																													
 
 @media(min-width:350px) and (max-width:768px){
 	body{
