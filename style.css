@@ -68,15 +68,6 @@ p {
   border-radius: 20px;
 }
 
-.order-btn {
-  transition-duration: 1.25s;
-  transition-delay: 0.25s;
-}
-
-.order-btn:hover {
-  transform: scale(1.1);
-}
-
 .decription {
   margin-top: 0;
   opacity: 0.4;
@@ -91,10 +82,6 @@ p {
   transition-delay: 0.25s;
 }
 
-.order-sum:hover {
-  transform: scale(1.2);
-}
-
 .order-btn-main {
   height: 40px;
 }
@@ -107,8 +94,18 @@ p {
   padding: 0.5rem 0;
   border-radius: 10px;
   background-color: hsl(245, 75%, 52%);
-  border: none;
-  height: 45px;
+  box-shadow: 0px 10px 10px hsl(245, 75%, 52%, 0.3);
+  height: 50px;
+  font-weight: bold;
+  border-style: none;
+  text-align: center;
+  transition-duration: 0.85s;
+  transition-delay: 0.15s;
+  cursor: pointer;
+}
+
+.payment-btn:hover {
+  transform: scale(1.1);
 }
 
 .payment-link {
@@ -116,6 +113,13 @@ p {
   text-decoration: none;
 }
 
+.payment-btn:focus,
+.payment-btn:hover,
+.payment-btn:active {
+  background: rgba(108, 100, 196, 0.8);
+}
+
+/*
 .payment-btn:hover {
   background-color: hsl(245, 55%, 51%);
   color: hsl(245, 55%, 51%);
@@ -133,6 +137,7 @@ p {
   color: #5b5957;
   border: 1px solid #f55800;
 }
+*/
 
 .price {
   opacity: 0.4;
@@ -141,6 +146,11 @@ p {
 .cancel-btn {
   text-decoration: none;
   font-size: 1.1rem;
+  padding: 10px 0px 15px 0px;
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
 }
 .change-order {
   text-decoration: none;
