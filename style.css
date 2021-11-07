@@ -155,3 +155,11 @@ p {
 .change-order {
   text-decoration: none;
 }
+@media screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+  }
+  .order-card{
+      width: 90%;
+  }
+}
