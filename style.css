@@ -158,8 +158,22 @@ p {
 @media screen and (max-width: 375px) {
   .container {
     width: 100%;
+    gap: 1rem;
   }
   .order-card{
       width: 90%;
+  }
+  .order-sum{
+      /* margin: 2px; */
+      margin-top: 10px;
+      
+  }
+  .decription{
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .payment-btn{
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 }
