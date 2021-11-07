@@ -84,7 +84,7 @@ p{
      color: white;
      width: 50vh;
      padding: 15px;
-     box-shadow: 30px 30px 5px30px hsl(224, 30%, 75%,.4);    
+     box-shadow: 30px 30px 5px 30px hsl(224, 30%, 75%,.4);    
      margin-bottom: 15px;
      transition: 0.3s ease-in-out;
      transform: scale(1.05);
@@ -161,22 +161,47 @@ p{
 
 
 
+@media(min-width:350px) and (max-width:1007px){
+	body{
+	     display:flex;
+	     align-items: center;
+	     justify-content:center;
+	     height:100vh;
+	}
+
+.bg_back{
+	     margin-left:35%;
+	     margin-right:35%;
+}
+}																																																																				
+
+@media(min-width:768px) and (max-width:768px){
+	body{
+	     display:flex;
+	     align-items: center;
+	     justify-content:center;
+	     height:100vh;
+	}
+
+#main_div_container{
+	     margin-left:35%;
+	     margin-right:35%;
+}
+}																																																																				
+
 @media(min-width:350px){
-    .bg_back{
-        background: url('./images/pattern-background-desktop.svg') no-repeat center/cover;
-        height: 50vh;
-
-    }
-
-    .container{
-        width: 400px;
-        box-shadow: 50px 50px  50px  hsl(226, 83%, 82%,.4);
-
-    }
-
-    .buttons .btn-primary{
-        width: 35vh;
-        box-shadow: 40px 40px 40px hsl(225, 61%, 76%,.4);
-    }
+	 body{
+	     display:flex;
+	     align-items: center;
+	     justify-content:center;
+	     background-image: url("image-header-desktop.jpg");
+	     background-position: ccenter top;
+	     background-size: cover;
+	     height:100vh;
+	  }
+   	  .bg_back{
+	     margin-left:35%;
+	     margin-right:35%;
+	  }
 }
 
